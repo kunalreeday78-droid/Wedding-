@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#0b3d2e,#145a32,#0b3d2e);
+    color:white;
+    text-align:center;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero{
+    width:90%;
+    max-width:700px;
+    padding:40px;
+    background:rgba(255,255,255,0.08);
+    border:2px solid gold;
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 30px rgba(255,215,0,0.4);
+}
+
+.names{
+    font-family:'Great Vibes',cursive;
+    font-size:4rem;
+    color:gold;
+    margin-bottom:15px;
+}
+
+.names span{
+    font-size:3rem;
+}
+
+h2{
+    font-family:'Cinzel',serif;
+    color:white;
+    margin-bottom:25px;
+}
+
+.quote{
+    font-size:1.2rem;
+    line-height:1.8;
+    margin-bottom:30px;
+    color:#f5f5f5;
+}
+
+.details p{
+    margin:12px 0;
+    font-size:1.2rem;
+}
+
+#countdown{
+    margin:30px 0;
+    font-size:1.5rem;
+    color:gold;
+    font-weight:bold;
+}
+
+.btn,
+.btn2{
+    display:inline-block;
+    margin:10px;
+    padding:15px 30px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn{
+    background:gold;
+    color:#0b3d2e;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.btn2{
+    background:white;
+    color:#0b3d2e;
+}
+
+.btn2:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:600px){
+
+.names{
+    font-size:3rem;
+}
+
+.hero{
+    padding:25px;
+}
+
+.quote,
+.details p{
+    font-size:1rem;
+}
+
+#countdown{
+    font-size:1.2rem;
+}
+
+}
