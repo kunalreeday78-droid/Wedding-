@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adesh ❤️ Anjali</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1 class="names">
+Adesh <span>❤️</span> Anjali
+</h1>
+
+<h2>Civil Marriage & Engagement Reception</h2>
+
+<p class="quote">
+"Together with our families,<br>
+we invite you to celebrate our special day."
+</p>
+
+<div class="details">
+
+<p>📅 Saturday, 1 August 2026</p>
+
+<p>🕟 4:30 PM</p>
+
+<p>📍 Calodyne Villa (Kumar & Sons)</p>
+
+</div>
+
+<div id="countdown"></div>
+
+<a class="btn" href="https://wa.me/23058176193" target="_blank">
+RSVP on WhatsApp
+</a>
+
+<a class="btn2"
+href="https://maps.app.goo.gl/2dbRn2EosPzCzGhk8"
+target="_blank">
+View Location
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
